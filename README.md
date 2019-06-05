@@ -1,5 +1,7 @@
 # Widdershins Docker Container
 
+Convenience container for https://github.com/mermade/widdershins
+
 ### Build it
 
 `docker build . -t widdershins`
