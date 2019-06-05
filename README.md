@@ -1,5 +1,7 @@
 # Widdershins Docker Container
 
+[![Docker Repository on Quay](https://quay.io/repository/verygoodsecurity/widdershins-docker/status "Docker Repository on Quay")](https://quay.io/repository/verygoodsecurity/widdershins-docker)
+
 Convenience container for https://github.com/mermade/widdershins
 
 ### Build it
