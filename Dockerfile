@@ -1,9 +1,8 @@
-FROM library/node:10-alpine
+FROM library/node:15.2.0-alpine3.12
 
-LABEL maintainer="VGS <dev@verygoodsecurity.com>"
+LABEL maintainer="Paradigm <eng@paradigm.co>"
 
-RUN apk add git
-RUN npm install -g mkdirp
-RUN npm install -g git+https://github.com/mermade/widdershins.git#v4.0.1
+RUN apk --no-cache add git
+RUN npm install -g mkdirp git+https://github.com/mermade/widdershins.git#v4.0.1
 
 ENTRYPOINT ["/usr/local/bin/widdershins"]
